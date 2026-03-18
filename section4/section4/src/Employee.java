@@ -8,5 +8,11 @@ public class Employee {
     byte age;
     char gender;
 
-    
+    public byte getAge() {
+        return age;
+    }
+
+    public char getGender(){
+        return gender;
+    }
 }
