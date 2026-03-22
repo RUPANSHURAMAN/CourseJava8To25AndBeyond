@@ -8,6 +8,13 @@ public class Employee {
     byte age;
     char gender;
 
+    public Employee(){
+        this.firstName = "John";
+        this.lastName = "Doe";
+        this.age=16;
+        this.gender='M';
+        System.out.println("Object is getting created");
+    }
     public byte getAge() {
         return age;
     }
