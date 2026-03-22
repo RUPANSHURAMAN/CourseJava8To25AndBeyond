@@ -5,11 +5,19 @@ public class Car {
     int horsePower;
 
     {
-        this.model = "Camry";
-        this.color = "Black";
-        this .horsePower = 200;
         System.out.println("Car object is being created...");
     }
+    
+    public Car(String model, String color, int horsePower){
+        this.model = model;
+        this.color = color;
+        this.horsePower = horsePower;
+    }
+
+    public Car() {
+
+    }
+
     public void startCar() {
         System.out.println("Vehicle started...");
     }
