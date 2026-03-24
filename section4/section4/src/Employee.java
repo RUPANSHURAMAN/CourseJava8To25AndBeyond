@@ -7,7 +7,7 @@ public class Employee {
     String lastName;
     byte age;
     char gender;
-    static String employerName="Google";
+    final static String EMPLOYER_NAME ="Google";
 
     public Employee(){
         System.out.println("Object is getting created in default constructor");

@@ -3,7 +3,7 @@ public class Car {
     String model;
     String color;
     int horsePower;
-    static  byte noOfWheels = 4;
+    final static  byte NO_OF_WHEELS = 4;
 
     {
         System.out.println("Car object is being created...");
