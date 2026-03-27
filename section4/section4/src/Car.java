@@ -4,6 +4,12 @@ public class Car {
     String color;
     int horsePower;
     final static  byte NO_OF_WHEELS = 4;
+    static byte noOfEngines;
+
+    static {
+        noOfEngines = 1;
+        System.out.println("static blocking is being executed");
+    }
 
     {
         System.out.println("Car object is being created...");
