@@ -2,7 +2,6 @@ public class CarMain {
 
     static {
         System.out.println("Static block from same class");
-        System.exit(0);
     }
 
     public static void main(String[] args) {
