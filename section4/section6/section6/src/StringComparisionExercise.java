@@ -1,4 +1,4 @@
-public class StringComparison {
+class StringComparison {
 
     public static void main (String[] args) {
         /* code */
