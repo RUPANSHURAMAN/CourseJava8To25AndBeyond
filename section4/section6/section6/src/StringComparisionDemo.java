@@ -21,5 +21,8 @@ public class StringComparisionDemo {
         boolean b8 = str4.equalsIgnoreCase(str5);
 
 
+        int comparision1 = "java".compareTo("java");
+        int comparision2 = "java".compareTo("python");
+        int comparision3 = "python".compareTo("java");
     }
 }
