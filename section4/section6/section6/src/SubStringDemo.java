@@ -1,0 +1,10 @@
+public class SubStringDemo {
+    static void main(String[] args) {
+        String originalString = "Hello, World!";
+        String subString1 = originalString.substring(7);
+        String subString2 = originalString.substring(0,5);
+        String subString3 = originalString.substring(0,0);
+
+
+    }
+}
